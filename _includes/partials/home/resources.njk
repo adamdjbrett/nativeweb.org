@@ -1,0 +1,52 @@
+{% if resources.show %}
+<section class="container py-6" id="resources">
+    <div class="text-center mb-5">
+        <h2 class="section-title fw-bold">
+            {{resources.title}}
+        </h2>
+        <p>
+            {{resources.description}}
+        </p>
+    </div>
+
+    <div class="col-lg-10 mx-auto">
+        <div class="accordion accordion-flush accordion-pro" id="resourceAccordion">
+
+            <div class="accordion-item item-active">
+                <h2 class="accordion-header">
+                    <button class="accordion-button fw-bold accordion-button-pro"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{resources.active.id}}"
+                        aria-expanded="true" aria-controls="collapse{{resources.active.id}}">
+                        <i class="{{resources.active.icon}} iconic me-3 text-{{resources.active.color}}"></i> <span class="me-auto"> {{resources.active.title}}</span>
+                        </button>
+                </h2>
+                <div id="collapse{{resources.active.id}}" class="accordion-collapse collapse show"
+                    data-bs-parent="#resourceAccordion">
+                    <div class="accordion-body p-4 body-content-bg">
+                        <p class="mb-3 text-pro-secondary">{{resources.active.text | md | safe}}</p>
+                        <a href="{{resources.active.button.url}}" class="btn btn-sm btn-{{resources.active.color}}">{{resources.active.button.text}}</a>
+                    </div>
+                </div>
+            </div>
+            {% for s in resources.list %}
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button fw-bold collapsed accordion-button-pro"
+                        type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse{{s.id}}" aria-expanded="false"
+                        aria-controls="collapse{{s.id}}">
+                       <i class="{{s.icon}} me-3 text-{{s.color}}"></i> {{s.title}}
+                    </button>
+                </h2>
+                <div id="collapse{{s.id}}" class="accordion-collapse collapse" data-bs-parent="#resourceAccordion">
+                    <div class="accordion-body p-4 body-content-bg">
+                        <p class="mb-3 text-pro-secondary">{{s.text | md |safe}}</p>
+                        <a href="{{s.button.url}}" class="btn btn-sm btn-{{s.color}}">{{s.button.text}}</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            </div>
+    </div>
+</section>
+{% endif %}

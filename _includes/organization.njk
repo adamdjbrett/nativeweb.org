@@ -1,0 +1,82 @@
+---
+layout: base.njk
+---
+
+    <main class="body-content-bg py-5">
+        <div class="container my-4">
+            <h1 class="fw-bold mb-4 text-primary-custom text-center">{{title}}</h1>
+            <h2 class="lead text-muted text-center mb-5">{{description}}</h2>
+
+            <h3 class="fw-bold text-center mb-4 border-bottom pb-2">{{section1.title}}</h3>
+            <div class="row justify-content-center mb-5">
+                <!-- Section 1 -->
+                 {% for p in section1.list %}
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card team-member-card text-center h-100 p-4 shadow-sm list-item-pro rounded-5">
+                        {% if p.image %}<div class="profile-container rounded-circle mx-auto mb-3" style="width: 100px; height: 100px;">
+                            <a href="{{p.url or page.url}}" title="{{p.name}}"><img 
+                            src="{{p.image}}" 
+                            alt="{{p.name}}" 
+                            class="profile-img"
+                            loading="eager"
+                            ></a>
+                        </div>{% else %}<div class="rounded-circle bg-light mx-auto mb-3" style="width: 70px; height: 70px; line-height: 70px; font-size: 2rem; color: var(--bs-primary-custom);"><i class="fas fa-user"></i></div>{% endif %}
+                        <h4 class="fw-bold mb-1"><a href="{{p.url or page.url}}" class="none">{{p.name}}</a></h4>
+                        <p class="fw-semibold mb-3">{{p.position}}</p>
+                        <p class="small text-muted">{{p.text| md |safe}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <h3 class="fw-bold text-center mb-4 border-bottom pb-2 mt-5">{{section2.title}}</h3>
+            <div class="row g-4 justify-content-center">
+                
+                <!-- section 2 -->
+                 {% for p in section2.list %}
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card team-member-card text-center h-100 p-4 shadow-sm list-item-pro rounded-5">
+                        {% if p.image %}<div class="profile-container rounded-circle mx-auto mb-3" style="width: 100px; height: 100px;">
+                            <a href="{{p.url or page.url}}" title="{{p.name}}"><img 
+                            src="{{p.image}}" 
+                            alt="{{p.name}}" 
+                            class="profile-img"
+                            loading="eager"
+                            ></a>
+                        </div>{% else %}<div class="rounded-circle bg-light mx-auto mb-3" style="width: 70px; height: 70px; line-height: 70px; font-size: 2rem;;"><i class="fas fa-user text-primary"></i></div>{% endif %}
+                        <h5 class="fw-bold mb-1"><a href="{{p.url or page.url}}" class="none">{{p.name}}</a></h5>
+                        <p class="text-primary-custom fw-semibold mb-3">{{p.position}}</p>
+                        <p class="small text-muted">{{p.text| md |safe}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+                
+            <h3 class="fw-bold text-center mb-4 border-bottom pb-2 mt-5">{{section3.title}}</h3>
+            <div class="row g-4 justify-content-center">
+                
+                <!-- section 2 -->
+                 {% for p in section3.list %}
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card team-member-card text-center h-100 p-4 shadow-sm list-item-pro rounded-5">
+                        {% if p.image %}<div class="profile-container rounded-circle mx-auto mb-3" style="width: 100px; height: 100px;">
+                            <a href="{{p.url or page.url}}" title="{{p.name}}"><img 
+                            src="{{p.image}}" 
+                            alt="{{p.name}}" 
+                            class="profile-img"
+                            loading="eager"
+                            ></a>
+                        </div>{% else %}<div class="rounded-circle bg-light mx-auto mb-3" style="width: 70px; height: 70px; line-height: 70px; font-size: 2rem;;"><i class="fas fa-user text-primary"></i></div>{% endif %}
+                        <h5 class="fw-bold mb-1"><a href="{{p.url or page.url}}" class="none">{{p.name}}</a></h5>
+                        <p class="text-primary-custom fw-semibold mb-3">{{p.position}}</p>
+                        <p class="small text-muted">{{p.text| md |safe}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+
+
+            </div>
+        </div>
+    </main>
+    {% include "partials/widget.njk" %}

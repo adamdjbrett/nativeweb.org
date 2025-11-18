@@ -1,0 +1,71 @@
+# Footer Menu 1
+menu1: 
+ title: "Native Web"
+ image: 
+   show: true
+   url: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+ icon: 
+   icon: fab fa-eleventy" # use icon when image not show
+   color: light # color primary, secondary, warning, danger, success, info, dark , light,white
+ width: "100"
+ height: "100"
+ circle: true
+ text: |
+   A curated resource hub for innovators and professionals. Building the digital future together.
+ button: 
+   text: Support Us
+   url: /
+
+# Footer Menu 2
+menu2: 
+ title: Menu
+ list: 
+  - nav: Home
+    url: /
+  - nav: About
+    url: /about/
+  - nav: Blog
+    url: /blog/
+  - nav: Podcast
+    url: /podcast/
+  - nav: Archive
+    url: /web-archive/
+  - nav: Active
+    url: /web-active/
+
+# Footer Menu 3
+menu3: 
+ title: Company
+ list: 
+  - nav: Organization
+    url: /organization/
+  - nav: Sudarsono
+    url: /team/sudarsono/
+  - nav: Search
+    url: /search/
+  - nav: Contact
+    url: /contact/
+
+# Footer Social area
+menu4: 
+ title: Contact Us
+ text: |
+   Email: [info@web.com](mailto:info@web.com)
+ social: 
+  - icon: fas fa-podcast
+    title: Listen Our Podcast
+    url: https://DominationChronicles.com
+  - icon: fab fa-youtube
+    title: Follow Our Youtube
+    url: https://www.youtube.com/@DominationChronicles
+  - icon: fab fa-x-twitter
+    title: Follow Our X
+    url: https://x.com/originally_free
+  - icon: fab fa-facebook
+    title: Follow Our Facebook
+    url: https://www.facebook.com/stevennewcomb1  
+
+
+
+# Footer copyrights
+copyrights: "Native Web"

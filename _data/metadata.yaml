@@ -1,0 +1,21 @@
+# Meta Tag SEO
+title: Indigenous Law Institute
+description: A Movement Toward Restoration and Healing
+image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+language: "en"
+locale: en_US
+favicon: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+#url: ""
+url: "http://localhost:8080"
+
+# Meta Social
+metasocial:
+  - facebook: https://www.facebook.com/steventnewcomb1/
+  - twitteruser: "@originally_free"
+  - twitter: https://x.com/originally_free
+
+# Site Author
+author: 
+  name: Adam DJ Brett
+  url: https://adamdjbrett.com
+  email: info@adamdjbrett.com

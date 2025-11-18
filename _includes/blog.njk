@@ -1,0 +1,42 @@
+---
+layout: base.njk
+---
+    <main class="body-content-bg py-5">
+        <div class="container my-4">
+            <div class="text-center">
+            <h1 class="fw-bold mb-2 text-primary-custom"><i class="bi bi-file-earmark-text-fill me-2"></i> {{title}}</h1>
+            <p class="lead text-muted mb-5">{{description}}</p>
+            </div>
+            <div class="row g-4">
+                {% if post.data.image %}{% for post in  pagination.items | reverse %}<div class="col-md-4">
+                        <div class="card card-pro-elevated h-100">
+                           <a href="{{post.url}}" title="{{post.data.title}}"><img src="{{post.data.image}}" class="card-img-top" width="100%" height="100%" alt="{{post.data.title}}"></a>
+                            <div class="card-body">
+                                <h3 class="card-title fw-bold">{{post.data.title}}</h3>
+                                {% if post.data.description %}<p class="card-text text-muted small">{{post.data.description}}</p>{% endif%}
+                            </div>
+                        </div>
+                    </div>{% endfor %}
+                    {% else %}
+                    {% for post in  pagination.items | reverse %}<div class="col-md-4">
+                        <div class="card card-pro-elevated h-100 text-center">
+                            <div class="card-body">
+                                <a href="{{post.url}}" class="none text-body"><i class="{{widget.blog.icon}} shadow-sm p-1 fa-2x display-6 
+                                rounded-circle border border-{{widget.blog.button.color}}"></i>
+                                <h3 class="card-title fw-bold">{{post.data.title}}</h3>
+                                {% if post.data.description %}<p class="card-text text-muted small">{{post.data.description}}</p>{% endif%}
+                                </a>
+                            </div>
+                        </div>
+                    </div>{% endfor %}{% endif %}
+                   <div class="row col-md-12">
+                    <div class="col-md-6 p-3">
+                    {% if pagination.href.previous %}<a class="btn btn-lg btn-{{widget.blog.button.color}} col-6" href="{{ pagination.href.previous }}">Prev </a>{% endif %}
+                    </div>
+                    <div class="col-md-6 text-end p-3">
+                    {% if pagination.href.next %}<a class="btn btn-lg btn-{{widget.blog.button.color}} col-6" href="{{ pagination.href.next }}">Next </a>{% endif %}
+                    </div>
+                </div>
+        </div>
+    </main>
+    {% include "partials/widget.njk" %}
