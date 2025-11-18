@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+<meta name="viewport" content="width=device-width">
+{% include "partials/seo.njk" %}
+</head>
+<body>
+<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+{% include "partials/navbar.njk" %}
+<main id="main">
+{{ content | safe }}
+</main>
+{% getBundle "fontawesome" %}
+{% include "partials/footer.njk" %}
+<script src="/js/bs.js"></script>
+<script src="/js/scripts.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</body>
+</html> 

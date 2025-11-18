@@ -1,0 +1,41 @@
+---
+layout: base.njk
+---
+    <main class="body-content-bg py-5">
+        <div class="container my-4">
+            <div class="text-center">
+            <h1 class="fw-bold mb-2 text-primary-custom">{{title}}</h1>
+            <p class="lead text-muted mb-5">{{description}}</p>
+            </div>
+            <div class="row g-4">
+                {% for post in  pagination.items | reverse %}
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 list-item-pro card-status-active border-accent-custom">
+                        <div class="card-body">
+                            {% if post.data.image %}<a title="{{post.data.title}}" href="{{post.url}}"><img class="img-fluid" width="100%" height="100%" 
+                            src="{{post.data.image}}" alt="{{post.data.title}}" loading="lazy"/></a>{% else %}
+                            <a href="{{post.url}}" title="{{post.data.title}}"><i class="{{widget.podcast.icon}} 
+                                display-5 text-{{widget.podcast.color}} mb-3 p-3 bg-body-tertiary border border-{{widget.podcast.color}} rounded-circle"></i></a>{% endif %}
+                            <h5 class="card-title fw-bold"><a href="{{post.url}}" class="text-decoration-none text-body">{{post.data.title}}</a></h5>
+                            <p class="card-text small text-muted">{{post.data.description}}</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 small post-meta d-flex justify-content-between">
+                            <span><i class="fas fa-calendar me-1"></i> <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></span>
+                            <a href="{{post.url}}" title="{{post.data.title}}" class="btn btn-sm btn-{{widget.podcast.color}}  fw-bold text-decoration-none">
+                               {{widget.podcast.list_button}}  <i class="fas fa-circle-play ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>{% endfor %}
+
+            </div>
+                   <div class="row col-md-12">
+                    <div class="col-md-6 p-3">
+                    {% if pagination.href.previous %}<a class="btn btn-lg btn-{{widget.podcast.color}} col-6" href="{{ pagination.href.previous }}">Prev </a>{% endif %}
+                    </div>
+                    <div class="col-md-6 text-end p-3">
+                    {% if pagination.href.next %}<a class="btn btn-lg btn-{{widget.podcast.color}} col-6" href="{{ pagination.href.next }}">Next </a>{% endif %}
+                    </div>
+                </div>
+        </div>
+    </main>
+    {% include "partials/widget.njk" %}

@@ -1,0 +1,48 @@
+---
+layout: base.njk
+---
+    <main class="body-content-bg py-5">
+        <div class="container my-4">
+            <h1 class="fw-bold mb-4 text-primary-custom">{{title}}</h1>
+            <p class="lead text-muted mb-5">{{description}}</p>
+            
+            <div class="list-group">
+                {% for s in list %}
+                <div class="row bg-body-secondary border mb-5 
+                border-{{s.color}} shadow-sm rounded-3">
+                    <div class="col-md-4 p-3 rounded-start 
+                    border-end border-{{s.color}} bg-body-tertiary">
+                        <img src="https://v1.screenshot.11ty.dev/{{ s.button.url | urlencode }}"
+                             class="img-fluid rounded-3 shadow-sm"
+                             style="width: 100%; height: 300px; object-fit: cover;"
+                        srcset="
+                        https://v1.screenshot.11ty.dev/{{ s.button.url | urlencode }}/small 375w,
+                        https://v1.screenshot.11ty.dev/{{ s.button.url | urlencode }}/medium 650w,
+                        https://v1.screenshot.11ty.dev/{{ s.button.url | urlencode }}/large 1024w
+                        "
+                        sizes="(max-width: 375px) 375px, (max-width: 650px) 650px, 1024px"
+                        alt="Screenshot {{s.title}}"
+                        onerror="this.onerror=null; 
+                        this.src='https://placehold.co/800x450/adb5bd/ffffff?text=Nothing+Screenshot';">
+                    </div>
+                    <div class="col-md-8 p-3">
+                        <h5 class="mb-1 p-3 text-{{s.color}} fw-bold bg-body-tertiary rounded-5">{{s.title}}
+                        <span class="badge rounded-pill text-bg-{{s.color}} float-end"><i class="{{s.icon}} me-2"></i> {{s.status}}</span>
+                        </h5>
+                    <div class="mb-1 p-3">{{s.text|md|safe}}
+                    <small>{{s.info}}</small>
+                    <div class="mt-5">
+                        {% if s.button.url %}<a href="{{s.button.url}}" 
+                        class="btn btn-{{s.color}} 
+                                rounded-pill">{{s.button.text}}
+                    <i class="far fa-circle-right ms-3 mt-1"></i>
+                    </a>{% endif %}
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+    {% include "partials/widget.njk" %}
