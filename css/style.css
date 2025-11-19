@@ -1,0 +1,42 @@
+.iconic {font-size: 20px;}
+a {font-weight: 500;}
+.icon-svg {
+    width: 1.25em;
+    height: 1.25em;
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+.fa-lg.icon-svg {
+    width: 1.33333333em;
+    height: 1.33333333em;
+}
+.fa-2x.icon-svg {
+    width: 2em;
+    height: 2em;
+}
+.none {text-decoration: none;}
+.profile-container {
+    overflow: hidden; 
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+}
+.profile-container:hover .profile-img {
+    transform: scale(1.05);
+}
+
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}

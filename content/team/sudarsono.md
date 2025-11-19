@@ -21,12 +21,7 @@ social:
     title: My Youtube
     color: danger
     url: https://youtube.com
-show_post_list: false
-show_podcast: false
-show_about: false
-show_web_status: 
-  show: false
-  show_archive: false
+show_toc: false
 ---
 
    Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan. Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan.

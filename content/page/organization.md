@@ -72,11 +72,5 @@ section3:
         Hallo world im the lead web developer of this organization. Lorep Ipsum dolor siamet amet jabang bayi lanang wedok. 
 
 show_toc: false
-show_post_list: false
-show_podcast: false
-show_about: false
-show_web_status: 
-  show: false
-  show_archive: false
 permalink: /organization/
 ---

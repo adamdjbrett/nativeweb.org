@@ -7,17 +7,16 @@ description: Native Web Description
 
 # Hero
 hero: 
- show: true
  title: Native Web
  description: |
     Native Web Description a Site here , Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan.
  button: 
    - text: More About Us
      url: /
+     color: primary
 
 # Resources Section
 resources: 
- show: true
  title: Resources
  description: All Resources Native Web
  active: # Active tab
@@ -53,10 +52,4 @@ resources:
 
 # Featured hide or show widget
 show_toc: false
-show_post_list: true
-show_podcast: true
-show_about: true
-show_web_status: 
-  show: true
-  show_archive: true
 ---

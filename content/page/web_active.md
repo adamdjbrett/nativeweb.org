@@ -52,10 +52,4 @@ list:
 permalink: /web-active/
 
 show_toc: false
-show_post_list: false
-show_podcast: false
-show_about: false
-show_web_status: 
-  show: false
-  show_archive: false
 ---

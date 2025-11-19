@@ -4,12 +4,6 @@ date: 2025-01-04
 description: "The void blinks back"
 image_copyrights: "Image by Unsplash"
 show_toc: true
-show_post_list: false
-show_podcast: false
-show_about: false
-show_web_status: 
-  show: false
-  show_archive: false
 tags: 
  - Cat
  - black

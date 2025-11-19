@@ -3,12 +3,6 @@ title: About
 description: "The Indigenous Law Institute: A Movement Toward Restoration and Healing"
 image: 
 show_toc: true
-show_post_list: false
-show_podcast: false
-show_about: false
-show_web_status: 
-  show: false
-  show_archive: false
 permalink: /about/
 ---
 

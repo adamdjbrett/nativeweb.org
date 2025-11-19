@@ -5,12 +5,6 @@ description: "The void blinks back"
 iframe: "https://www.youtube.com/embed/xlBXAHqjlec"
 duration: 45 Minutes
 show_toc: true
-show_post_list: false
-show_podcast: false
-show_about: false
-show_web_status: 
-  show: false
-  show_archive: false
 tags: 
  - Cat
  - black

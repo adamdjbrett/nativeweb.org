@@ -1,16 +1,15 @@
-        {% if hero.show %}<section class="hero-section text-center py-7 bg-primary-dark" id="hero">
+        <section class="hero-section text-center mt-5 py-7 bg-primary-dark" id="hero">
             <div class="container">
-                <div class="col-lg-10 mx-auto">
-                    <h1 class="display-2 fw-black mb-4 hero-text-pro">
+                <div class="col-lg-10  mx-auto p-3 p-md-5 mb-5">
+                    <h1 class="display-2 mt-5 fw-bold">
                         <a href="{{page.url}}" class="none">{{hero.title}}</a></h1>
-                    <p class="fs-4 opacity-75 mb-5 fw-light hero-subtitle col-md-10 mx-auto">
+                    <p class="fs-4 opacity-75 mb-3 col-md-10 mx-auto">
                         {{hero.description | md | safe}}</p>
-                    <p class="mt-5">{% for b in hero.button %}
-                        <a href="{{b.url}}" class="btn btn-lg btn-accent-custom rounded-5 px-5 
-                    btn-pro-shadow hero-cta-pro p-3">
+                    <p>{% for b in hero.button %}
+                        <a href="{{b.url}}" class="btn btn-sm btn-{{b.color}} p-3">
                         {{b.text}}
                     </a>{% endfor %}
                     </p>
                 </div>
             </div>
-        </section>{% endif %}
+        </section>

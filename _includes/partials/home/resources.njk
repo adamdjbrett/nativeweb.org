@@ -1,4 +1,3 @@
-{% if resources.show %}
 <section class="container py-6" id="resources">
     <div class="text-center mb-5">
         <h2 class="section-title fw-bold">
@@ -9,8 +8,9 @@
         </p>
     </div>
 
-    <div class="col-lg-10 mx-auto">
-        <div class="accordion accordion-flush accordion-pro" id="resourceAccordion">
+    <div class="col-lg-10 mx-auto mb-5">
+        <div class="accordion accordion-flush 
+        border rounded shadow-sm mb-5" id="resourceAccordion">
 
             <div class="accordion-item item-active">
                 <h2 class="accordion-header">
@@ -22,7 +22,7 @@
                 </h2>
                 <div id="collapse{{resources.active.id}}" class="accordion-collapse collapse show"
                     data-bs-parent="#resourceAccordion">
-                    <div class="accordion-body p-4 body-content-bg">
+                    <div class="accordion-body p-4 bg-body-tertiary">
                         <p class="mb-3 text-pro-secondary">{{resources.active.text | md | safe}}</p>
                         <a href="{{resources.active.button.url}}" class="btn btn-sm btn-{{resources.active.color}}">{{resources.active.button.text}}</a>
                     </div>
@@ -39,7 +39,7 @@
                     </button>
                 </h2>
                 <div id="collapse{{s.id}}" class="accordion-collapse collapse" data-bs-parent="#resourceAccordion">
-                    <div class="accordion-body p-4 body-content-bg">
+                    <div class="accordion-body p-4 bg-body-tertiary">
                         <p class="mb-3 text-pro-secondary">{{s.text | md |safe}}</p>
                         <a href="{{s.button.url}}" class="btn btn-sm btn-{{s.color}}">{{s.button.text}}</a>
                     </div>
@@ -49,4 +49,3 @@
             </div>
     </div>
 </section>
-{% endif %}
