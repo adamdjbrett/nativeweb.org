@@ -1,10 +1,10 @@
 # Meta Tag SEO
-title: Indigenous Law Institute
-description: A Movement Toward Restoration and Healing
-image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+title: Native Web
+description: Resources for Indigenous Cultures around the World
+image: "/img/1.svg"
 language: "en"
 locale: en_US
-favicon: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+favicon: "/img/1.svg"
 #url: ""
 url: "http://localhost:8080"
 
@@ -16,6 +16,6 @@ metasocial:
 
 # Site Author
 author: 
-  name: Adam DJ Brett
-  url: https://adamdjbrett.com
-  email: info@adamdjbrett.com
+  name: Marc Becker
+  url: http://www.yachana.org/
+  email: marc@yachana.org

@@ -67,7 +67,7 @@ Widget and Features
 + Widget About
 + Widget Web Active
 + Widget Web Archive
-+ Table Of Content
++ Table Of Contents
 + Footer Notes
 + Pagefind Search Funcstions
 + Eleventy API Web Screenshoot

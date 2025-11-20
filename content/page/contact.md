@@ -2,9 +2,9 @@
 layout: contact.njk
 title: Contact Us
 description: "Contact Us for Information"
-image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
-image_credit: Photo by Unsplash
+image: "/img/1.svg"
+image_credit: Native Web logo
 show_toc: false
 permalink: /contact/
 ---
-Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan iki bos kuh.Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan iki bos kuh.Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan iki bos kuh.
+due to spam the contact form is closed

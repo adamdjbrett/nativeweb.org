@@ -3,7 +3,7 @@ menu1:
  title: "Native Web"
  image: 
    show: true
-   url: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+   url: "/img/1.svg"
  icon: 
    icon: fab fa-eleventy" # use icon when image not show
    color: light # color primary, secondary, warning, danger, success, info, dark , light,white

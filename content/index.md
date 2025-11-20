@@ -3,13 +3,13 @@ layout: home.njk
 
 # SEO
 title: Native Web
-description: Native Web Description
+description: Resources for Indigenous Cultures around the World
 
 # Hero
 hero: 
  title: Native Web
  description: |
-    Native Web Description a Site here , Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan.
+    Resources for Indigenous Cultures around the World
  button: 
    - text: More About Us
      url: /
@@ -20,7 +20,7 @@ resources:
  title: Resources
  description: All Resources Native Web
  active: # Active tab
-   title: Podcast (Audio & Video)
+   title: Podcasts (Audio & Video)
    id: podcast
    icon: fas fa-podcast
    color: danger
@@ -40,14 +40,14 @@ resources:
      button:
        text: Explore Blog And Newsletters
        url: /blog/
-   - title: Organization
+   - title: Organizations
      id: organization # id for tab
      icon: fab fa-drupal
      color: warning
      text: |
        Organization Native Web Description a Site here , Lorep ipsum dolor siamet amet jabang bayi lanang wedok temenan.
      button:
-       text: Explore Blog And Newsletters
+       text: Explore Organizations
        url: /organization/
 
 # Featured hide or show widget

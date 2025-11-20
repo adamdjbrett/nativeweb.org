@@ -4,9 +4,9 @@ title: Native Web
 # Icon Nav - switch false if you want use title only
 icon: 
   show: true
-  image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
-  width: "40"
-  height: "40"
+  image: "/img/1.svg"
+  width: "80"
+  height: "80"
   circle: true
 
 # Nav List
@@ -19,8 +19,8 @@ list:
     url: /podcast/  
   - nav: Blog
     url: /blog/
-  - nav: Organization
-    url: /organization/
+  - nav: History
+    url: /history/
   - nav: Archive
     url: /web-archive/
   - nav: Active

@@ -1,33 +1,22 @@
 ---
 title: About
-description: "The Indigenous Law Institute: A Movement Toward Restoration and Healing"
+description: "Native Web: Resources for Indigenous Cultures around the World"
 image: 
 show_toc: true
 permalink: /about/
 ---
+## **NativeWeb Mission Statement**
 
-## Sometimes the void blinks back.
-Lorem ipsum odor amet, consectetuer adipiscing elit. Sapien id feugiat habitasse ligula, habitasse lobortis lobortis. Feugiat nec ipsum potenti sociosqu maximus lorem amet? Commodo tristique sagittis hac tellus ac lobortis eu. Taciti mollis praesent etiam volutpat posuere; lorem augue varius taciti. Ornare suspendisse magnis nec tortor per habitant. Consequat sociosqu tortor vel tempus dui? Vivamus mollis adipiscing penatibus placerat tempor odio.[^1]
+NativeWeb is an international, nonprofit, educational organization dedicated to using telecommunications including computer technology and the Internet to disseminate information from and about indigenous nations, peoples, and organizations around the world; to foster communication between native and non-native peoples; to conduct research involving indigenous peoples' usage of technology and the Internet; and to provide resources, mentoring, and services to facilitate indigenous peoples' use of this technology.
 
-### Sometimes the void blink 182.
+NativeWeb es una organización educativa internacional, sin fines de lucro, dedicada al uso de las telecomunicaciones incluso la tecnología de computación y la Internet para diseminar información de y sobre naciones, pueblos, y organizaciones indígenas alrededor del mundo; para criar la comunicación entre pueblos indígenas y no indígenas; para dirigir investigaciones que involucran el uso indígena de tecnología y la Internet; y para proporcionar recursos, consejos, y servicios para facilitar el uso indígena de esta tecnología.
 
-Feugiat at natoque tempor faucibus; commodo duis nam. Cursus mi tellus rutrum ipsum viverra ullamcorper. Aenean sociosqu at augue penatibus vulputate proin maximus cras. Dolor vehicula senectus dignissim, a luctus vitae arcu felis. Nostra porttitor non mi integer conubia scelerisque torquent aliquam. Tortor varius inceptos per potenti dictum libero lacinia massa. Et phasellus vivamus maximus pharetra parturient condimentum congue.[^2]
+## **About NativeWeb**
 
-> This is the first paragraph of a blockquote.
->
-> This is the second paragraph of the same blockquote.
+NativeWeb is a project of many people. Our vision touches ancient teachings and modern technology. Our purpose: to provide a cyber-place for Earth's indigenous peoples.
 
-### Sometimes the void blinks black pink.
+As access to the Web grows and indigenous peoples reach out through cyber-space, NativeWeb will grow also. Through NativeWeb, indigenous people (and peoples) become visible to each other and themselves and organize actions in a multitude of local, national, and international institutions. The shape of indigenous social action changes as wider audiences are created and especially as the means of creating audiences become the means by which audiences become actors. From Chiapas to Nunavut and from Samiland to Thailand, indigenous communities widen, coalesce, and interact as they work, communicate, and organize via the Internet.
 
-Habitant nec tristique maximus senectus molestie placerat malesuada. Tempus imperdiet pretium parturient amet rhoncus torquent mollis. In consequat sapien nibh enim egestas maximus. Laoreet bibendum facilisi condimentum pharetra vehicula interdum. Ullamcorper cursus mattis felis auctor praesent gravida feugiat. Pellentesque rutrum tempor phasellus turpis faucibus?[^3]
+Indigenous Peoples have much in common amidst great diversity: spiritual practices celebrating inter-relatedness of all Life on Earth; and historical suffering at the hands of industrialized nations and corporate entities. NativeWeb is concerned with all this: indigenous literature and art, legal and economic issues, land claims and new ventures in self-determination.
 
-Ornare praesent dis erat urna integer id odio duis. Platea himenaeos ultrices fames parturient litora vitae eleifend. Quam gravida suspendisse purus aliquet potenti. Leo quam conubia nostra nascetur natoque, phasellus commodo justo. Integer natoque egestas morbi a porttitor. At auctor porttitor turpis sit tempor lobortis. Nisi commodo ullamcorper, mauris praesent pharetra sed at. Pulvinar pellentesque inceptos curabitur ultricies sit; proin platea senectus. Dapibus ipsum lectus senectus porta primis quisque at. Arcu consectetur praesent consectetur luctus sociosqu consectetur.[^4]
-
-Nascetur himenaeos euismod maecenas aenean etiam ex scelerisque congue. Sodales orci et maecenas praesent ligula ante volutpat lacus libero. Finibus felis ligula inceptos fringilla mi lorem. Fames arcu cursus consectetur viverra viverra hac. Litora quam potenti luctus cras donec pharetra. Blandit sit massa mattis erat enim aliquam parturient. Pharetra litora odio per massa vivamus montes. Vestibulum aenean inceptos cras nec montes senectus turpis.[^5]
-
-## References
-[^1]: Batman needs a hug.
-[^2]: Robin suffers from PTSD.
-[^3]: Superman is goated with the sauce.
-[^4]: Catwoman is underrated.
-[^5]: Black Cats are cool.
+Our purpose is not to "preserve," in museum fashion, some vestige of the past, but to foster communication among peoples engaged in the present and looking toward a sustainable future for those yet unborn.
